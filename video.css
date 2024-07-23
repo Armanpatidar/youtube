@@ -1,0 +1,47 @@
+.thumbnails {
+    width: 100%;
+}
+.vg1 {
+    display: grid ;
+    grid-template-columns: 50px 1fr;
+}
+.v1, .vt2 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.v2, .vt21 {
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+    line-height: 14px;
+}
+.pp1 {
+    object-fit: cover;
+    object-position: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}
+.thumbnails-row {
+    margin-bottom: 13px;
+}
+.t2 {
+    margin-bottom: 13px;
+}
+.vg2 {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.pp2 {
+    object-fit: cover;
+    object-position: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 14px;
+}
