@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entry Pass</title>
+    <style>
+        body{
+            background:url(thumbnails/night\ sky.jpg);
+            background-position:center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            flex-direction: column;
+            height: 98vh;
+        }
+        body, .entry, .name-box, .email-box, .pass-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .entry {
+            background-color: rgba(255, 255, 255, 0.104);
+            flex-direction: column;
+            position: relative;
+            height: 350px;
+            width: 350px;
+            border-radius: 25px;
+            opacity: 1;
+            transition: all 0.5s ease;
+        }
+        .start, .submit, .submit:hover {
+            padding: 8px 15px;
+            background-color: rgb(7, 50, 90);
+            color: white;
+            font-size: 17px;
+            border: none;
+            border-radius: 7px;
+            cursor: pointer;
+        }
+        .i {
+            position: relative;
+            max-width: 1000px;
+        }
+        .start {
+            position: absolute;
+            left:104px;
+            top: -17px;
+            z-index: 1;
+            transition: all 0.5s ease;
+        }
+        .form {
+            position: absolute;
+            top: 25%;
+        }
+        .name-box, .email-box, .pass-box {
+            width: 100%;
+            justify-content: space-between;
+        }
+        .name, .email, .pass {
+            color: rgb(7, 50, 90);
+            font-size: 20px;
+            margin: 5px 10px;
+        }
+        .type-name, .type-email, .type-pass {
+            color: rgb(4, 48, 90);
+            height: 15px;
+            padding: 5px 7px;
+            border: none;
+            border-radius: 5px;
+            outline: none;
+        }
+        .type-name:focus, .type-email:focus, .type-pass:focus {
+            border:2px solid rgb(6, 44, 79);
+            box-shadow:inset 0px 0px 1px 2px rgba(7, 50, 90,);
+        }
+        .submit {
+            position: absolute;
+            left: 35%;
+            background-color: rgba(255, 255, 255, 0);
+            color: rgb(6, 44, 79);
+            padding: 5px 15px;
+            margin: 70px 0 0 0;
+            border: 2px solid rgb(6, 44, 79);
+            font-weight: 600;
+            transition: all 0.5s;
+        }
+        #check {
+            display:none;
+        }
+        #check:checked ~ .entry {
+            opacity: 0;
+        }
+        #check:checked ~ .start {
+            top: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="i">
+        <input type="checkbox" id="check">
+        
+        <label for="check" class="start">
+            Entry Pass Code
+        </label>
+        <div class="entry">
+            
+            <form class="form" action="challenge exercise.html">
+                <div class="name-box">
+                    <label class="name" for="name">Name :-</label>
+                    <input class="type-name" type="text" name="name" placeholder="Type Your Name" required>
+                </div>
+                <div class="email-box">
+                    <label class="email" for="Email">Email :-</label>
+                    <input class="type-email" type="email" name="Email" id="Email" placeholder="Your Email" required>
+                </div>
+                <div class="pass-box">
+                    <label class="pass" for="Pass">Pass~Code :-</label>
+                    <input class="type-pass" type="password" name="Pass" id="Pass" pattern="98233" maxlength="5" required>
+                </div>
+                <input class="submit" type="submit" value="Entry">
+            </form>
+            
+        </div>
+    </div>
+</body>
+</html>
