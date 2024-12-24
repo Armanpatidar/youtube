@@ -1,0 +1,380 @@
+        .sub {
+            background-color:rgb(204, 0, 0);
+            color: white;
+            padding-left: 16px;
+            padding-right: 16px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 12px;
+            transition: opacity 0.15s;
+        }
+        .sub:hover {
+            opacity: 0.8;
+        }
+        .sub:active{
+            opacity: 0.5;
+        }
+        .join {
+            background-color: white;
+            color: #065fd4;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 9px;
+            padding-bottom: 9px;
+            border-color:#065fd4;
+            border-style: solid;
+            cursor: pointer;
+            border-radius: 5px;
+            border-width: 1px;
+            margin-right: 12px;
+            transition: background-color 0.15s, color 0.15s;
+        }
+        .join:hover {
+            background-color: #065fd4;
+            color: white;
+        }
+        .join:active {
+            opacity: 0.7;
+        }
+        .tweet {
+            background-color: #1d9bf0;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            padding-left: 16px;
+            padding-right: 16px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            border-radius: 50px;
+            border: none;
+            cursor: pointer;
+            transition: box-shadow 0.15s;
+        }
+        .tweet:hover {
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+        .tweet:active {
+            opacity: 0.8;
+        }
+        .uber {
+            background-color: black;
+            color: white;
+            height: 35px;
+            width: 100px;
+            margin: 5px;
+            border: none;
+            cursor: pointer;
+        }
+        .uber:hover {
+            opacity: 0.8;
+        }
+        .amazon {
+            background-color: rgb(255, 216, 20);
+            color: black;
+            height: 35px;
+            width: 175px;
+            border-radius: 20px;
+            border: none;
+            margin: 5px;
+            cursor: pointer;
+        }
+        .amazon:hover {
+            opacity: 0.8;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+            font-weight: bold;
+        }
+        .amazon:active {
+            color: white;
+        }
+        .github {
+            background-color: rgb(46, 164, 79);
+            color: white;
+            height: 35px;
+            width: 80px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 5px;
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+        .github:hover {
+            opacity: 0.8;
+            height: 40px;
+            width: 90px;
+            border-radius: 20px;
+        }
+        .github:active {
+            box-shadow: 5px 5px 10px black;
+        }
+        .bootstrap {
+            background-color: rgb(121, 82, 179);
+            color: white;
+            padding-left: 16px;
+            padding-right: 16px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 5px;
+            cursor: pointer;
+            transition: all 0.29s;
+        }
+        .bootstrap:hover {
+            opacity: 0.9;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+        }
+        .bootstrap2 {
+            background-color: white;
+            color: rgb(108, 117, 125);
+            padding-left: 16px;
+            padding-right: 16px;
+            padding-top: 9px;
+            padding-bottom: 9px;
+            border-color: rgb(108, 117, 125);
+            font-weight: bold;
+            border-radius: 5px;
+            border-width: 1px;
+            cursor:pointer;
+            transition: all 0.15s;
+        }
+        .bootstrap2:hover {
+            background-color: rgb(153, 207, 255);
+            border: none;
+            border-radius: 20px;            
+            
+        }
+        .bootstrap2:active {
+            box-shadow: 5px 5px 15px black;
+            width: 110px;
+        }
+        .linkedin {
+            background-color: rgb(10, 102, 194);
+            color: white;
+            height: 35px;
+            width: 220px;
+            border: none;
+            border-radius: 20px;
+            font-weight: bold;
+            margin: 5px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .linkedin:hover {
+            height: 37px;
+            font-style: italic;
+        }
+        .linkedin:active {
+            opacity: 0.8;
+        }
+        .linkedin2 {
+            background-color: white;
+            color: rgb(10, 102, 194);
+            height: 35px;
+            width: 80px;
+            border-color: rgb(10, 102, 194);
+            border-width: 1px;
+            border-radius: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .linkedin2:hover {
+            background-color: rgb(10, 102, 194);
+            color: white;
+        }
+        .linkedin2:active {
+            opacity: 0.8;
+            box-shadow: 5px 5px 15px black;
+        }
+        .back {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            margin: 2px;
+            transition: all 0.2s;
+        }
+        .back:hover {
+            margin-left: 5px;
+            margin-right: 5px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .next {
+            margin: 2px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            transition: all 0.2s;
+        }
+        .one:hover {
+            margin-left: 2px;
+            margin-right: 2px;
+            padding-left: 7px;
+            padding-right: 7px;
+        }
+        .two:hover {
+            margin-left: 2px;
+            margin-right: 2px;
+            padding-left: 7px;
+            padding-right: 7px;
+        }
+        .three:hover {
+            margin-left: 2px;
+            margin-right: 2px;
+            padding-left: 7px;
+            padding-right: 7px;
+        }
+        .four:hover {
+            margin-left: 2px;
+            margin-right: 2px;
+            padding-left: 7px;
+            padding-right: 7px;
+        }
+        .five:hover {
+            margin-left: 2px;
+            margin-right: 2px;
+            padding-left: 7px;
+            padding-right: 7px;
+        }
+        .next:hover {
+            margin-left: 5px;
+            margin-right: 5px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #dad3f8;
+}
+::selection{
+  background: #6d50e2;
+  color: #fff;
+}
+.container{
+  max-width: 950px;
+  width: 100%;
+  padding: 40px 50px  40px  40px;
+  background: #fff;
+  margin: 0 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.container .topic{
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content .list{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin-right: 50px;
+  position: relative;
+}
+.content .list label{
+  height: 60px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 60px;
+  cursor: pointer;
+  padding-left: 25px;
+  transition: all 0.5s ease;
+  color: #333;
+  z-index: 12;
+}
+#home:checked ~ .list label.home,
+#blog:checked ~ .list label.blog,
+#help:checked ~ .list label.help,
+#code:checked ~ .list label.code,
+#about:checked ~ .list label.about{
+  color: #fff;
+}
+.content .list label:hover{
+  color: #6d50e2;
+}
+.content .slider{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  border-radius: 12px;
+  background: #6d50e2;
+  transition: all 0.4s ease;
+}
+#home:checked ~ .list .slider{
+  top: 0;
+}
+#blog:checked ~ .list .slider{
+  top: 60px;
+}
+#help:checked ~ .list .slider{
+  top: 120px;
+}
+#code:checked ~ .list .slider{
+  top: 180px;
+}
+#about:checked ~ .list .slider{
+  top: 240px;
+}
+.content .text-content{
+  width: 80%;
+  height: 100%;
+}
+.content .text{
+  display: none;
+}
+.content .text .title{
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.content .text p{
+  text-align: justify;
+}
+.content .text-content .home{
+  display: block;
+}
+#home:checked ~ .text-content .home,
+#blog:checked ~ .text-content .blog,
+#help:checked ~ .text-content .help,
+#code:checked ~ .text-content .code,
+#about:checked ~ .text-content .about{
+  display: block;
+}
+#blog:checked ~ .text-content .home,
+#help:checked ~ .text-content .home,
+#code:checked ~ .text-content .home,
+#about:checked ~ .text-content .home{
+  display: none;
+}
+.content input{
+  display: ;
+}
